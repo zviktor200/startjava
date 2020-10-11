@@ -13,11 +13,11 @@ public class Cycle {
 		System.out.println();
 		
 		int g = 10;
-		do {                             
-        	if (g % 2 == 1) {           
-        		System.out.println(g);
-        	}                           
-        	g++;              	
-        } while (g <=20);					
+		do {
+			if (g % 2 == 1) {
+				System.out.println(g);
+			}
+			g++;
+		} while (g <=20);
 	}
 }

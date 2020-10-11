@@ -6,15 +6,15 @@ public class ConditionalStatement {
 		}
 
 		boolean isMale = true;
-		if(isMale){
+		if(isMale) {
 			System.out.println("yes");
 		}
-		if(!isMale){
+		if(!isMale) {
 			System.out.println("no");
 		}
 		
 		int height = 179;
-		if(height < 180){
+		if(height < 180) {
 			System.out.println("yes");
 		} else {
 			System.out.println("no");
@@ -22,11 +22,11 @@ public class ConditionalStatement {
 
 		char firstLetterOfName = 'I';
 		if(firstLetterOfName == 'M') {
-        	System.out.println("yes");
+			System.out.println("yes");
 		} else if(firstLetterOfName == 'I') {
-    		System.out.println("no");
+			System.out.println("no");
 		} else {
-    		System.out.println("UPS"); 
-    	}
+			System.out.println("UPS"); 
+		}
 	}
 }
