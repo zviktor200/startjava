@@ -1,7 +1,16 @@
-public class Calculator {
+public class MyFirstGame {
     public static void main(String[] args) {
-        for (char i = 9398; i <= 10178; i++) {
-            System.out.println(i);
+        int number = 24;
+        int random = 99;
+        while (number != random) {
+            if (number < random) {
+                System.out.println("Введенное вами число меньше того, что загадал компьютер " + number + " " + random);
+                number++;
+            } else if (random < number) {
+                System.out.println("Введенное вами число больше того, что загадал компьютер " + number + " " + random);
+                number--;
+            }
         }
+        System.out.println("Вы угадали!" + number);
     }
 }
