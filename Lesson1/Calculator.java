@@ -17,7 +17,10 @@ public class Calculator {
 			System.out.println (result);
 		} else if (operation == '/') {
 			System.out.println(number1 / number2);
-		} else
+		}	else if (operation == '%') {
+			System.out.println(number1 % number2);	
+		} else {
 			System.out.println("ERROR");	
+		}
 	}
 }
