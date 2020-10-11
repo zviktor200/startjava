@@ -27,6 +27,6 @@ public class ConditionalStatement {
     		System.out.println("no");
 		} else {
     		System.out.println("UPS"); 
-    	}
+	    	}
 	}
 }
